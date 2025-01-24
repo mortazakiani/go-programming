@@ -54,6 +54,13 @@ func main() {
 	g := complex(5,6)
 	fmt.Println(g)
 
+	//concat var
+	aa:= 85
+	bb:= 85.85
+	//cc := aa +bb
+	cc := float64(aa) +bb
+	fmt.Println(cc)
+
 
 
 }
