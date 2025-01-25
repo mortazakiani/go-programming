@@ -17,7 +17,7 @@ func main() {
 		fmt.Println(i)
 	}
 
-
+	//infinit  loops
 	for i := 1; i  > 0; i++ {
 		fmt.Println("infinit")
 	}
