@@ -5,9 +5,9 @@ import "fmt"
 func main() {
 	numbers := []int{100,200,100,300,400,10}
 	find(10,numbers...)//we can call func with slice like this and every one of elemnt  send to function
-	find(10,10,100,200,100,300,400,10)//call varadic-func normally 
+	find(10,10,100,200,100,300,400,10)//call variadic-func normally 
 }
-func find(number int, numbers ...int) {//this is varadic-func
+func find(number int, numbers ...int) {//this is variadic-func
 	found := false
 	for i, v := range numbers {
 		if v == number {
